@@ -16,7 +16,12 @@ body {
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
+    transition: 1s;
+    
+}
+.main:hover{
     box-shadow: 10px 10px 10px #90eb47;
+    
 }
 
 .main h2 {
@@ -48,6 +53,7 @@ select {
 textarea{
     border: none;
     outline: none;
+    width:100%;
 }
 
 button[type="submit"] {
